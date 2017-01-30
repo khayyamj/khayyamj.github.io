@@ -1,0 +1,156 @@
+#map {
+  height: 400px;
+  width: 600px; }
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ultra', serif; }
+
+.page-wrapper {
+  min-width: 640px;
+  min-height: 640px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.weather-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.weather-now {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ultra', serif;
+  font-size: 54px; }
+
+.weather-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1; }
+
+.weather-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; }
+
+.forecast-pic {
+  height: 54px; }
+
+.weather-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ultra', serif;
+  font-size: 54px; }
+
+.weather-lowerLeft {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 24px; }
+
+.pressure-arrow {
+  width: 10px;
+  height: 20px;
+  transform: rotateX(180deg); }
+
+.weather-lowerRight {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 24px; }
+
+.weather-mainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navigation-mainContainer {
+  height: 60%;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 5; }
+
+.navigation-footer {
+  display: flex;
+  justify-content: flex-end; }
+
+/*  media queries     */
+/*@media (max-width: 640px) {
+    .weather-container {
+        width: 640px;
+    }
+}*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+map {
+  height: 50%;
+  width: 50%;
+  display: none; }
+
+main-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white; }
+
+button {
+  z-index: 1;
+  background-color: silver;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: white; }
+
+/*
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:transparent;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+*/
+
+/*# sourceMappingURL=maps/styles.css.map */
